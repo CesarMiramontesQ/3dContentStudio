@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="h-full" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>3D Content Studio</title>
+</head>
+<body class="h-full font-jakarta">
+<div class="flex min-h-full">
+    <div class="flex flex-1 flex-col  py-24 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24 h-screen justify-center">
+        <div class="mx-auto w-full max-w-sm lg:w-96 justify-center">
+            <div class="flex flex-col items-center">
+                <img class="h-12 w-auto lg:h-16" src="img/logo.svg" alt="Your Company">
+                <h2 class="mt-6 text-[32px] font-bold tracking-tight text-gray-900">Let’s Get Started!</h2>
+            </div>
+            <div class="mt-8">
+                <div class="mt-6">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
+                            <div class="sm:col-span-3">
+                                <label for="firstName" class="block text-sm font-medium text-gray-700">Frist Name</label>
+                                <div class="mt-1">
+                                    <input id="firstName" name="firstName" placeholder="Enter your first name" type="text"  required class="block w-full appearance-none  border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                                </div>
+                            </div>
+                            <div class="sm:col-span-3">
+                                <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+                                <div class="mt-1">
+                                    <input id="lastName" name="lastName" placeholder="Enter your last name" type="text"  required class="block w-full appearance-none  border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-1">
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <div class="mt-1">
+                                <input id="email" name="email" placeholder="Enter your email" type="email" autocomplete="email" required class="block w-full appearance-none  border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                            </div>
+                        </div>
+                        <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
+                            <div class="sm:col-span-3">
+                                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                                <div class="mt-1">
+                                    <input id="password" name="password" placeholder="Enter your password" type="password" autocomplete="current-password" required class="block w-full appearance-none  border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                                </div>
+                            </div>
+                            <div class="sm:col-span-3">
+                                <label for="rePassword" class="block text-sm font-medium text-gray-700">Re-Password</label>
+                                <div class="mt-1">
+                                    <input id="rePassword" name="rePassword" placeholder="Enter your re-password" type="password" autocomplete="current-password" required class="block w-full appearance-none  border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="flex w-full justify-center border border-transparent bg-[#007AFF] py-2 px-4 text-sm font-medium text-white shadow-sm">
+                           <span class="flex space-x-4">
+                           Sign up
+                           </span>
+                            </button>
+                        </div>
+                        <div>
+                            <button type="submit" class="flex w-full justify-center border border-[#EBEBEB] bg-white py-2 px-4 text-sm font-medium text-black shadow-sm">
+                                <div class="flex items-center">
+                                 <span class="mr-2">
+                                    <svg width="25" height="25" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M25.4998 13.0386C25.4998 11.9899 25.4147 11.2245 25.2305 10.4309H13.2549V15.1644H20.2843C20.1426 16.3407 19.3773 18.1123 17.6766 19.3027L17.6528 19.4612L21.4392 22.3945L21.7016 22.4207C24.1108 20.1956 25.4998 16.9218 25.4998 13.0386Z" fill="#4285F4"/>
+                                       <path d="M13.2549 25.5104C16.6988 25.5104 19.5899 24.3765 21.7016 22.4208L17.6767 19.3028C16.5996 20.054 15.154 20.5783 13.2549 20.5783C9.88194 20.5783 7.01915 18.3533 5.99865 15.278L5.84906 15.2907L1.91184 18.3377L1.86035 18.4808C3.95783 22.6475 8.26623 25.5104 13.2549 25.5104Z" fill="#34A853"/>
+                                       <path d="M5.99881 15.2777C5.72954 14.484 5.5737 13.6336 5.5737 12.755C5.5737 11.8763 5.72954 11.026 5.98464 10.2323L5.97751 10.0633L1.99094 6.96729L1.86051 7.02933C0.996037 8.75837 0.5 10.7 0.5 12.755C0.5 14.81 0.996037 16.7515 1.86051 18.4806L5.99881 15.2777Z" fill="#FBBC05"/>
+                                       <path d="M13.2549 4.93193C15.65 4.93193 17.2656 5.96651 18.1869 6.83108L21.7866 3.31632C19.5758 1.26134 16.6988 0 13.2549 0C8.26623 0 3.95783 2.86279 1.86035 7.02942L5.98448 10.2324C7.01915 7.15702 9.88194 4.93193 13.2549 4.93193Z" fill="#EB4335"/>
+                                    </svg>
+                                 </span>
+                                    Sign up with google
+                                </div>
+                            </button>
+                        </div>
+                        <div class="flex items-center space-x-1 justify-center">
+                            <span>Already have an account?</span>
+                            <span class="text-[#007AFF]">Sign In</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relative hidden w-0 flex-1 lg:block">
+        <img class="absolute inset-0 h-full w-full object-cover" src="img/cover.png" alt="">
+    </div>
+</div>
+</body>
+</html>
